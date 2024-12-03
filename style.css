@@ -1,0 +1,146 @@
+body{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.h1semcolidir h1{
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6em;
+}
+.h1semcolidir{
+    width: auto;
+    height: auto;
+    margin-left:5%;
+    margin-top: 8%;
+}
+.imgsemcolidir img{
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.imgsemcolidir{
+    position: relative;
+    left: 1000px;
+    bottom: 250px;
+    /* display: flex;
+    justify-content: right;
+    margin-right: 10%; */
+}
+.psemcolidir{
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+    width: 65%;
+}
+.meustrabalhos{
+    color: rgb(219, 219, 219);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.txttrabalho{
+    color: rgb(151, 144, 144);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.divsemcolidir{
+    /* border-radius: 15%; */
+    height: 900px;
+    -webkit-box-shadow: 3px -50px 26px 34px rgba(0,0,0,0.99); 
+    box-shadow: 3px -50px 26px 34px rgba(0,0,0,0.99);
+    margin-top: 5%;
+}
+.imgAMG img{
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+.cardsemcolidir{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.titulosemcolidir h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 43.5%;
+    margin-top: 5%;
+}
+.titulosemcolidir hr{
+    background-color: black;
+    width: 50%;
+}
+.titulosemcolidir p{
+    display: flex;
+    justify-content: center;
+    color: rgb(156, 156, 156);
+    font-family: 'Times New Roman', Times, serif;
+}
+.paragrafosemcolidir{
+    width: 40%;
+    height: 250px;
+    align-self: center;
+}
+.paragrafosemcolidir p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.contatosemcolidir hr {
+    background-color: black;
+    width: 50%;
+}
+.contatosemcolidir h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25%;
+    margin-top: 5%;
+    font-size: 3em;
+}
+.contatosemcolidir{
+    margin-top: 5%;
+}
+.informaçãosemcolidirh3{
+    position: relative;
+    left: 25%;
+}
+.informaçãosemcolidirh3 h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.informaçãosemcolidirp p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.2em;
+}
+.informaçãosemcolidirp{
+    position: relative;
+    left: 33%;
+    bottom: 37px;
+}
+.informaçãosemcolidirn{
+    position: relative;
+    left: 55%;
+    bottom: 84px;
+}
+.informaçãosemcolidirn h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.informaçãosemcolidirt p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.2em;
+}
+.informaçãosemcolidirt{
+    position: relative;
+    left: 65%;
+    bottom: 123px;
+}
+.fundosemcolidir h1{
+    color: rgb(243, 245, 245);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25em;
+    position: relative;
+    left: 240px;
+    bottom: 370px;
+    z-index: -1;
+}

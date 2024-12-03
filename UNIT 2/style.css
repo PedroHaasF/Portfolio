@@ -1,0 +1,295 @@
+* {
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  a {
+    background: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid;
+    color: #000000; 
+    line-height: 1.4;
+    padding: 0.25em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+  }
+  
+  a:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+  }
+
+  .btn {
+    color: #000000;
+    cursor: pointer;
+    /* display: block; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+
+body{
+    background-image: white;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* footer{
+    background-color: #000000;
+    color: #979191;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Arial", "Verdana";
+}    */
+
+
+h1 {
+    font-size: 3.7em;
+}
+
+.primeiro img{
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+}
+.tex1{
+    color: #979191;
+    font-family: "Times New Roman", "Arial";
+    font-size: 20px;
+}
+.tex2{
+    color: #000000;
+    font-family: "Times New Roman", "Arial" 
+    
+}
+.tex3{
+    color: #979191;
+    font-family: "Times New Roman", "Arial";
+    font-size: 20px;
+}
+.texpai{
+  
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: start;
+}
+.carro{
+    float: right;
+    width: 50%;
+}
+
+.carro img{
+    width: 100%;
+}
+.pai{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+.card{
+    border: 1px solid #615858;
+    float: left; 
+    margin-top: 30px;
+    width: 25em;
+    height: 34em;
+}
+
+.cardimg img{
+  width: 100%;
+  height: 16em;
+}
+.paisao{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.img5{
+    width: 100vw;
+}
+
+.btn-2 {
+    letter-spacing: 0;
+  }
+  
+  .btn-2:hover,
+  .btn-2:active {
+    letter-spacing: 5px;
+  }
+  
+  .btn::before,
+  .btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    top: 0;
+    transition: width 0.6s ease; 
+  }
+.btn::before {
+    top: -4px; 
+  }
+  
+  .btn::after {
+    bottom: -4px; 
+  }
+  .btn-2:hover:after,
+  .btn-2:hover:before {
+    backface-visibility: hidden;
+    border-color: #000000;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+  }
+  
+  .btn-2:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%;
+  }
+
+  .saibamais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+  }
+  .img6{
+    margin-top: none;
+  }
+  .img5{
+    margin-bottom: none;
+    width: auto;
+    height: auto;
+  }
+  menu{
+    background-color: #000000;
+    margin-bottom: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  h6{
+    color: #979191;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .muitoutil{
+    margin-right: 40%;
+    align-self: flex-end;
+  }
+  .mercedes{
+    margin-right: 5%;
+  }
+  .politica{
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button{
+    background: none;
+    border: none;
+    background-color: #1b1919;
+    padding: 0;
+    height: 4em;
+    width: 4em;
+  }
+  input{
+    background-color: #1b1919;
+    border: none;
+    padding: 0;
+    height: 4em;
+    margin-left: 20px;
+    color: white;
+    padding-left: 2%;
+  }
+  input::placeholder{
+    color: #d4d4d4;
+  }
+  .muitoutil p{
+    color: #d4d4d4;  
+    font-size: large;
+  }
+
+  .form{
+    justify-self: right; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .user{
+    height: 4em;
+    width: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+  }
+  .user:hover{
+    background-color: #1b1919;
+  }
+
+  .teste{
+    height: 4em;
+  }
+
+.modelos h2{
+  font-size: 2.7em;
+  color: #252121;
+  font-weight: normal;
+  margin: 0%;
+  margin-left: 10%;
+}
+.mae{
+  width: 100%;
+  margin-bottom: 5%;
+}
+.amg4{
+  border: 1px solid #615858;
+  float: left;
+  margin-right: 3%;
+  margin-left: none;
+  margin-top: 30px;
+  align-items: center;
+}
+.amg4img img{
+  height: 42vh;
+  width: 26vw;
+}
+.txtamg0{
+  display: flex;
+  margin-left: 5%;
+}
+.txtamg{
+  margin-left: 5%;
+
+}
